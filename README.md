@@ -22,7 +22,7 @@ data class FAQ(
 You’ll use a Kotlin list or map to store predefined FAQs:
 Kotlin
 val faqData = listOf(
-    FAQ("Returns", "Can I return a product?", "Yes, returns are accepted within 7 days."),
+    FAQ("Cancel", "Can I cancel my order?", "Before shipment : Yes - Please email to ask@abc.com to request for cancellation. After shipment : You'll need to follow the standard return/refund process once the seller marks it as shipped."),
     FAQ("Pricing", "Is tax included?", "Prices are inclusive of GST."),
     FAQ("Availability", "Is this product in stock?", "Stock varies by location. Check availability online.")
 )
