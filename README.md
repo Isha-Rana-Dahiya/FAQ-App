@@ -23,7 +23,9 @@ You’ll use a Kotlin list or map to store predefined FAQs:
 Kotlin
 val faqData = listOf(
     FAQ("Cancel", "Can I cancel my order?", "Before shipment : Yes - Please email to ask@abc.com to request for cancellation. After shipment : You'll need to follow the standard return/refund process once the seller marks it as shipped."),
+    
     FAQ("Refund", "How do I request a refund?", "Go to your membership account and open the order. Click “Request Refund” within 7 days of delivery (or within 10 days after the expected delivery date if undelivered). Submit any supporting evidence (photos, courier updates). The seller has 3 business days to respond."),
+    
     FAQ("Track", "How can I track my shipment?", "After your order ships, the seller must upload a valid tracking number to your order detail page. You’ll also receive an email notification with the tracking link.")
 )
 
