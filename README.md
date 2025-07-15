@@ -34,6 +34,7 @@ val faqData = listOf(
 
 Or for keyword grouping:
 Kotlin
+
 val faqMap = mapOf(
     "Returns" to listOf("Can I return a product?" to "Yes, returns are accepted within 7 days."),
     "Pricing" to listOf("Is tax included?" to "Prices are inclusive of GST.")
@@ -70,6 +71,7 @@ fun FAQChatScreen() {
 🔎 Step 5: Matching Logic for FAQs
 Implement simple keyword or substring matching:
 Kotlin
+
 fun matchFAQ(query: String): String {
     val lowerQuery = query.lowercase()
     for (faq in faqData) {
